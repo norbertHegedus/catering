@@ -1,0 +1,159 @@
+a {
+    text-decoration: none;
+    cursor : pointer;
+    color : #fff;
+}
+.admin_h3 {
+    float:left;
+    line-height : 30px;
+}
+#log_out, #back {
+    background-color: #000;
+    color : #FFF;    
+    padding: 2px 8px 2px 0px;    
+    font-size: 10px;
+    width : 72px;
+    float:right;
+    margin-right: 4px;
+}
+#back {
+    right : 80px;
+}
+#log_out .logout , #back .back {
+    padding : 8px;
+    background-color: #c42d01;
+}
+.icon {
+    padding : 13px 17px;
+    background-color : #193B86;
+}
+.icon img {
+    height : 10px;
+    vertical-align: middle;
+}
+.arrow {
+    background-color : #D6D6D7;
+    position: absolute;
+    right : 30px;
+    top : -3px;
+    height: 10px; 
+    width : 10px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+#pannel{
+    clear : both;
+}
+
+#pannel {    
+    width : 515px;
+    margin : 50px auto;
+    padding : 15px;
+    background-color: #E7E7E7;
+    border-left: 1px solid #ccc;
+    /*box-shadow: 2px 2px 6px #ccc;*/    
+}
+#categorii {
+    height : 30px;
+    width : 200px
+}
+.admin_table {
+    margin : 20px auto;    
+    font-size : 11px;
+    color : #000;    
+}
+#top_pannel {
+    border-bottom: 1px solid #CDCCCC;
+}
+#bottom_pannel {
+    border-top : 1px solid #fafafa;
+}
+.admin_table tr td {
+    padding : 10px 25px;    
+    vertical-align : middle;
+}
+.admin_table input[type=text], 
+.admin_table textarea{
+    width : 200px;
+}
+.admin_table input[type=submit] {
+    font-size : 10px;
+    background-color : #fff;
+    border : 0px;
+    padding : 10px 20px;
+    font-weight : bold;
+    border : 1px solid #ccc;
+    margin-left : -3px;
+    cursor: pointer;
+}
+.admin_table tr td input[type=file] {
+    font-size : 10px;    
+}
+#top_pannel, #bottom_pannel {
+    position : relative;
+}
+#add_button, #delete_button {
+    position: absolute;
+    background-color: #c42d01;
+    width: 40px;
+    height: 37px;
+    left: -56px;    
+    text-align: center;
+    display : table;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    top : 20px;
+}
+#add_button img, #delete_button img {
+    padding-top : 6px;
+}
+.form_buttons .icons{
+    display: inline-block;
+    height: 34px;
+    width : 34px;
+    line-height: 34px;
+    background-color:  #c42d01;    
+    text-align : center;
+}
+.form_buttons .icons img { 
+    vertical-align : middle !important;
+}
+.delete_table th {
+    border-bottom: 1px solid #E2DEDE;;
+    padding : 10px;
+}
+.delete_table th:last-child {
+    border-right : 0px;
+}
+.delete_table .to_delete {
+    text-align: center;
+    border-bottom: 1px solid #C8C6C6;
+    background-color : #DDDDDD;
+}
+.delete_table button[type=submit]{
+    background-color : #c42d01;
+    border : 0px;
+    color : #DADADA;
+    padding : 5px 15px;
+    font-size : 10px;
+    box-shadow: inset -1px -1px 0px 0px #673636;
+}
+.delete_table .names {
+    text-align : center;
+    border-bottom: 1px solid #C8C6C6;
+    border-left: 1px solid #C8C6C6;
+    background-color : #DDDDDD;
+}
+.delete_table .names:hover {
+    background-color : #DDDDDD;
+}
+
+        
+.to_delete button[type=submit] {
+    cursor : pointer;
+}
+.to_delete button[type=submit]:hover {
+    background-color : #A32500;
+    text-shadow: 2px 1px 1px #000;
+}

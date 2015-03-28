@@ -1,0 +1,30 @@
+.admin_h3 {
+    float:left;
+    line-height : 30px;
+}
+.register-form-area{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        color: #000;
+        background : #e4e4e4;
+        /*border-radius: 10px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;*/
+}
+
+.register-form-area form input{padding: 0px;}
+.register-form-area .btn{background: #202020;
+padding: 7px;
+border-radius: 5px;
+text-decoration: none;
+width: 50px;
+display: inline-block;
+color: #FFF;}
+
+.register-form-area .register{
+border: 0;
+width: 100px;
+padding: 8px;
+}
